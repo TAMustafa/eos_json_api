@@ -49,7 +49,7 @@ class Currency(Resource):
         currency_symbol = request.args.get('symbol', type=str)
         
         try:
-            currency_data = ce.get_currency_balance(currency_contract, currency_account, currency_symbol)
+            currency_data = ce.get_currency_balance(currency_account, currency_contract, currency_symbol)
             return currency_data
 
         except:    

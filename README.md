@@ -43,14 +43,14 @@ https://eos-easy-json-api.herokuapp.com/table?contract=eosio.msig&scope=eosnewyo
 Retrieve the balance of an account for a given currency
 
 **Parameter**<br>
-`contract` TEXT - The contract that operates the currency<br>
 `account` TEXT - The account to query balances for<br>
+`contract` TEXT - The contract that operates the currency<br>
 `symbol` TEXT - The symbol for the currency if the contract operates multiple currencies
 
-`/currency&contract=value?account=value?symbol=value`
+`/currency&account=value?contract=value?symbol=value`
 
 **Example:**
-https://eos-easy-json-api.herokuapp.com/currency?contract=eosio&account=tareknanobnk&symbol=EOS
+https://eos-easy-json-api.herokuapp.com/currency?account=tareknanobnk&contract=eosio.token&symbol=eos
 
 ---------------------------------------------------------------
 
