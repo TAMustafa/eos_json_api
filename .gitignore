@@ -154,4 +154,7 @@ dmypy.json
 # Pyre type checker
 .pyre/
 
+# VS Code
+.vscode
+
 # End of https://www.gitignore.io/api/macos,python
