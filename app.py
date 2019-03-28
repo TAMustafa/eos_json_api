@@ -11,6 +11,14 @@ api = Api(app)
 ce = Cleos('https://api.eosnewyork.io')
 ##
 
+class HelloWorld(Resource):
+    def get(self):
+        return {'message': 'Welcome on EOS_JSON_API'}
+
+api.add_resource(HelloWorld, '/')
+
+##
+
 class Account(Resource):
     def get(self, name):
 
