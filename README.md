@@ -81,7 +81,7 @@ https://eos-easy-json-api.herokuapp.com/block/50022875
 ----------------------------------------------------
 
 ### Get_Info
-Gets current blockchain information.
+Retrieve current blockchain information.
 
 **Parameter** <br>
 - `none`
@@ -89,7 +89,7 @@ Gets current blockchain information.
 `/info`
 
 **Example:**
-http://127.0.0.1:5000/info
+https://eos-easy-json-api.herokuapp.com/info
 
 -------------------------------------------------
 
