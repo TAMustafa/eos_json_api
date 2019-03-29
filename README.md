@@ -6,7 +6,7 @@ A convenient way to lookup JSON data on the EOS Blockchain.<br>
 ## Getting Started
 These instructions will give a brief overview of the EOS API **GET** endpoints that are currently available to use.<br>
 
-The api is currently hosted on Heroku under the following URL:<br>
+The api is currently hosted on the following URL:<br>
 `www.eosjson.io/api`
 
 -----------------------------------------------------
