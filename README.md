@@ -7,7 +7,7 @@ A convenient way to lookup JSON data on the EOS Blockchain.<br>
 These instructions will give a brief overview of the EOS API **GET** endpoints that are currently available to use.<br>
 
 The api is currently hosted on Heroku under the following URL:<br>
-`https://eos-easy-json-api.herokuapp.com/`
+`www.eosjson.io/api`
 
 -----------------------------------------------------
 
@@ -20,7 +20,7 @@ Returns an object containing various details about a specific account on the EOS
 `/account/eos_account_name`
 
 **Example:**
-https://eos-easy-json-api.herokuapp.com/account/tareknanobnk
+www.eosjson.io/api/account/tareknanobnk
 
 ------------------------------------------------------
 
@@ -35,7 +35,7 @@ Returns an object containing rows from the specified table.
 `/table&contract=value?scope=value?table=value`
 
 **Example:**
-https://eos-easy-json-api.herokuapp.com/table?contract=eosio.msig&scope=eosnewyorkio&table=approvals
+www.eosjson.io/api/table?contract=eosio.msig&scope=eosnewyorkio&table=approvals
 
 ------------------------------------------------------
 
@@ -50,7 +50,7 @@ Retrieve the balance of an account for a given currency
 `/currency&account=value?contract=value?symbol=value`
 
 **Example:**
-https://eos-easy-json-api.herokuapp.com/currency?account=tareknanobnk&contract=eosio.token&symbol=eos
+www.eosjson.io/api/currency?account=tareknanobnk&contract=eosio.token&symbol=eos
 
 ---------------------------------------------------------------
 
@@ -63,7 +63,7 @@ Retrieve the ABI for an account
 `/abi/eos_account_name`
 
 **Example:**
-https://eos-easy-json-api.herokuapp.com/abi/eosio
+www.eosjson.io/api/abi/eosio
 
 -----------------------------------------------------------
 
@@ -76,7 +76,7 @@ Retrieves a full block from the blockchain.
 `/block/50022875`
 
 **Example:**
-https://eos-easy-json-api.herokuapp.com/block/50022875
+www.eosjson.io/api/block/50022875
 
 ----------------------------------------------------
 
@@ -89,7 +89,7 @@ Retrieve current blockchain information.
 `/info`
 
 **Example:**
-https://eos-easy-json-api.herokuapp.com/info
+www.eosjson.io/api/info
 
 -------------------------------------------------
 

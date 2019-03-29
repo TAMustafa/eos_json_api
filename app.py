@@ -11,11 +11,9 @@ api = Api(app)
 ce = Cleos('https://api.eosnewyork.io')
 ##
 
-class HelloWorld(Resource):
+class Welcome(Resource):
     def get(self):
-        return {'message': 'Welcome on EOS_JSON_API'}
-
-api.add_resource(HelloWorld, '/')
+        return {'message': 'Welcome on eosjson.io'}
 
 ##
 
@@ -102,15 +100,15 @@ class Info(Resource):
         except:    
             return {'message': 'Info data not found'}, 404 
 
-
 ##
 
-api.add_resource(Account, '/account/<string:name>')
-api.add_resource(Table, '/table')
-api.add_resource(Currency, '/currency')
-api.add_resource(Abi, '/abi/<string:name>')
-api.add_resource(Block, '/block/<int:number>')
-api.add_resource(Info, '/info')
+api.add_resource(Account, '/api/account/<string:name>')
+api.add_resource(Table, '/api/table')
+api.add_resource(Currency, '/api/currency')
+api.add_resource(Abi, '/api/abi/<string:name>')
+api.add_resource(Block, '/api/block/<int:number>')
+api.add_resource(Info, '/api/info')
+api.add_resource(Welcome, '/api')
 
 ##
 
